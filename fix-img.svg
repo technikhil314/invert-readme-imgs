@@ -6,10 +6,8 @@
                     display: none;
                     visibility: hidden;
                 }
-                html[data-color-mode="dark"] {
-                    img, picture {
-                        filter: invert(1) hue-rotate(180deg);
-                    }
+                html[data-color-mode="dark"] img, html[data-color-mode="dark"] picture {
+                    filter: invert(1) hue-rotate(180deg);
                 }
             </style>
         </foreighobject>
