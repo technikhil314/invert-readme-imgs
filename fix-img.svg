@@ -1,0 +1,17 @@
+<svg fill="none" height="0" width="0" id="__img-fix" xmlns="http://www.w3.org/2000/svg">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+        <foreighobject>
+            <style>
+                #__img-fix {
+                    display: none;
+                    visibility: hidden;
+                }
+                html[data-color-mode="dark"] {
+                    img, picture {
+                        filter: invert(1) hue-rotate(180deg);
+                    }
+                }
+            </style>
+        </foreighobject>
+    </div>
+</svg>
